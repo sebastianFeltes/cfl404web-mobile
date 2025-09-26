@@ -1,0 +1,23 @@
+FAQ, Home (cursos, mostrar info de cursos que va la persona, tab), Institución
+
+
+import React from "react";
+
+function CursoCard({ title }) {
+  return (
+    <div className="flex flex-col w-1/5 h-1/5 gap-2 py-2 px-4 hover:border-2 rounded-2xl border-customLigth-blue">
+      <img
+        className="w-full h-auto rounded-2xl "
+        src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg"
+        alt=""
+      />
+      <p className="text-center font-serif text-2xl">{title}</p>
+	button/ a/ "VerMas"    
+</div>
+  );
+}
+
+export default CursoCard;
+
+{/* <CursoCard title={"Programacion Web"} /> */}
+      <CursoCard title={"Programacion Web"} />
