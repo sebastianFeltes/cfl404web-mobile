@@ -1,4 +1,4 @@
-import { Colors } from "@/constants/Colors.";
+import { Colors } from "@/constants/Colors";
 import { useState } from "react";
 import {
   Image,
